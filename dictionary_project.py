@@ -105,7 +105,7 @@ def main(page: ft.Page):
     # INITIAL LOAD: Populate the list with ALL words when the app starts
     update_word_list("")
 
-    # 7. The Layout Construction
+    # 7. The Layout Construction integrated with the search bar
     layout = ft.Row(
         controls=[
             # Left Container (Search + List)
